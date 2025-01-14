@@ -11,8 +11,8 @@ detector = HandDetector(maxHands=1)
 
 # Loading the trained model
 classifier = Classifier(
-    "C:/Users/STE/OneDrive/Desktop/Sign Language Detector Pyhton/converted_keras (1)/keras_model.h5", 
-    "C:/Users/STE/OneDrive/Desktop/Sign Language Detector Pyhton/converted_keras (1)/labels.txt")
+    "keras_model.h5", 
+    "labels.txt")
 
 # Parameters
 offset = 25
