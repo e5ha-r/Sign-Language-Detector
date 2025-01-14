@@ -13,7 +13,7 @@ imgSize = 400
 counter = 0
 
 # Folder for saving collected data
-folder_path = "C:/Users/STE/OneDrive/Desktop/Sign Language Detector Python/DATA/Yes"
+folder_path = "/DATA/Yes" #add the name of the folder for specific symbol which you want to create data for
 
 # Check if the folder exists, if not, create it
 if not os.path.exists(folder_path):
